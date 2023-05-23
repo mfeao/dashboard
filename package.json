@@ -17,9 +17,17 @@
     "url": "https://github.com/mfeao/dashboard.git"
   },
   "peerDependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
+    "@mfeao/uikit": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.0.2"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
+    "@mfeao/uikit": "^0.1.0"
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
@@ -32,6 +40,7 @@
     "@types/react-dom": "^18.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.0.2",
     "tsc-alias": "^1.8.6",

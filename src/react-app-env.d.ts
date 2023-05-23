@@ -1,7 +1,9 @@
 /// <reference types="react-scripts" />
 
 declare module '@package' {
-  export {};
+  export * from '~/layouts';
+
+  export * from '~/pages';
 }
 
 declare module '@dist/cjs' {
